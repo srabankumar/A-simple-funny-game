@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FunApp</title>
+	<script type="text/javascript" src="jquery-1.10.2.js"></script>
+	<style>
+		#mycanvas
+		{
+			background-color:#905000;
+		}
+		#play
+		{
+			position: absolute;
+			margin: 300px 0 0 350px;
+			font-size: 20px;
+			background-color: #FFA000;
+		}
+		#reset
+		{
+			display :none;
+			position: absolute;
+			margin: 520px 0 0 350px;
+			font-size: 20px;
+			background-color: #FFA000;
+
+		}
+		#img2
+		{
+			display:none;
+			position: absolute;
+			margin: 0 0 0 0;
+			height: 50px;
+			width: 50px;
+		}
+
+	</style>
+	
+</head>
+<body>
+<img src="hammer.gif" id="img2">
+<button type="button" id ="play"> PLAY</button>
+<button type="button" id ="reset"> RESET</button>
+<canvas id="mycanvas" width="900px" height="560px">
+   canvas not supported
+</canvas>
+<script type="text/javascript" src="funapp.js"></script>
+
+</body>
+</html>
